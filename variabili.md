@@ -11,14 +11,10 @@ Le variabili vengono definite da un tipo e un nome (definito identificatore). Pe
 * **costanti**, vengono definite con la prima lettera o con i caratteri che compongono il suo nome maiuscoli. Identifica una porzione di memoria il cui valore non varia nel corso dell'esecuzione di un programma.
 
 >			
-Qui di seguito si può osservare come si assegna un valore a una variabile e come si può richiamare. 
-	>
-	\>> contenitore = [3,4,5,6,7,8,9] 
-	>
-	=> [3,4,5,6,7,8,9] 
-	>
-	\>> contenitore 
-	>
-	=> [3,4,5,6,7,8,9] 
+Qui di seguito si può osservare come si assegna un valore a una variabile e come si può richiamare.    
+	\>> contenitore = [3,4,5,6,7,8,9]     
+	=> [3,4,5,6,7,8,9]     
+	\>> contenitore     
+	=> [3,4,5,6,7,8,9]    
 
 		
