@@ -49,7 +49,7 @@ Per scrivere una stringa vengono utilizzati i doppi apici (“ ”) o quelli sin
 	\>> 'ciao Pippo'.length 
 	>
 	=> 10 
-* ** “stringa”*num \**, replica la stringa per il numero di volte indicato da num; 
+* ** “stringa”\*num**, replica la stringa per il numero di volte indicato da num; 
 	>
 	\>> 'pippo '*4 
 	>
