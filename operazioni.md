@@ -3,15 +3,15 @@
 #### Matematiche <h4>
 
 Con Ruby si possono eseguire operazioni matematiche. Qui di seguito possiamo vedere alcuni esempi:
-
+|prima colonna|seconda colonna|
 |:---|---:|      
-| >> 5+6|+ addizione |       
-| => 11| |       
-|  >> 7-2|- sottrazione |     
-|  => 5 | |		   
-| >> 3*8 |* moltiplicazione |      
-| => 24 | |	     
-|  >> 9/3|/ divisione |    
+|>> 5+6|+ addizione |       
+|=> 11| |       
+|>> 7-2|- sottrazione |     
+|=> 5 | |		   
+|>> 3*8 |* moltiplicazione |      
+|=> 24 | |	     
+|>> 9/3|/ divisione |    
 |  => 3  | |	  	  
 | >> 3**2 |** elevazione a potenza |      
 | => 9 | |	       
