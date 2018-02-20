@@ -1,12 +1,11 @@
 # STRINGHE 
 Per scrivere una stringa vengono utilizzati i doppi apici (“ ”) o quelli singoli (‘ ’). Con le stringhe si possono utilizzare differenti comandi:
 * **Downcase**, converte la stringa in minuscolo;
-    >
-	> >> 'PIPPO'.downcase 
+	> \>>'PIPPO'.downcase 
 	>
 	=> "pippo
 * **Upcase**, converte la stringa in maiuscolo;
-	>> 'pippo'.upcase
+	'pippo'.upcase
 	>
 	=> "PIPPO" 
 * **Capitalize**, restituisce una capia della stringa con il primo carattere maiuscolo;
