@@ -49,21 +49,23 @@ Per scrivere una stringa vengono utilizzati i doppi apici (“ ”) o quelli sin
 	\>> 'ciao Pippo'.length 
 	>
 	=> 10 
-		
-		---
-
-		<ul>
-			<li> <b> “stringa”*num </b>, replica la stringa per il numero di volte indicato da num; <br>
-				>> 'pippo '*4 <br>
-				=> "pippo pippo pippo pippo" </li> <br>
-			<li> <b> \ </b>, è il carattere di escape, che trasforma il segno successivo in un carattere di tipo stringa e
-			non viene visto come un simbolo di chiusura: es. ‘pippo è andato dall\’altra parte’, non visualizza errore se viene inserito un apice che funge da apostrofo; 
-			Un altro utilizzo per non incappare in un errore è: “pippo  è andato dall’altra parte”, 
-			dove vengono utilizzate le doppie virgolette in modo che se all’interno della frase viene messo un apice, quest’ultimo verrà visto come un carattere normale; <br> 
-			<br>
-				>> 'Pippo è andato dall\'altra parte' <br>
-				=> "Pippo è andato dall'altra parte" <br>
-				>> "Pippo è andato dall'altra parte" <br>
-				=> "Pippo è andato dall'altra parte" </li>
-		</ul>
+* ** “stringa”*num**, replica la stringa per il numero di volte indicato da num; 
+	>
+	\>> 'pippo '*4 
+	>
+	=> "pippo pippo pippo pippo"
+	>
+* **\**, è il carattere di escape, che trasforma il segno successivo in un carattere di tipo stringa e
+  non viene visto come un simbolo di chiusura: es. ‘pippo è andato dall\’altra parte’, non visualizza errore se viene inserito un apice che funge da apostrofo; 
+  Un altro utilizzo per non incappare in un errore è: “pippo  è andato dall’altra parte”, 
+  dove vengono utilizzate le doppie virgolette in modo che se all’interno della frase viene messo un apice, quest’ultimo verrà visto come un carattere normale; 
+	>
+	\>> 'Pippo è andato dall\'altra parte' 
+	>
+	=> "Pippo è andato dall'altra parte" 
+	>
+	\>> "Pippo è andato dall'altra parte" 
+	>
+	=> "Pippo è andato dall'altra parte" 
+	>
 		
