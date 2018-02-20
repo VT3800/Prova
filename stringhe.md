@@ -2,22 +2,20 @@
 Per scrivere una stringa vengono utilizzati i doppi apici (“ ”) o quelli singoli (‘ ’). Con le stringhe si possono utilizzare differenti comandi:
 * **Downcase**, converte la stringa in minuscolo;
 
-	## >> 'PIPPO'.downcase 
-	## => "pippo
+	> >> 'PIPPO'.downcase 
+	> => "pippo
 * **Upcase**, converte la stringa in maiuscolo;
-
-
-	## >> 'pippo'.upcase
-	## => "PIPPO" </li>
+	> >> 'pippo'.upcase
+	> => "PIPPO" </li>
 * **Capitalize**, restituisce una capia della stringa con il primo carattere maiuscolo;
-	## >> 'pippo'.capitalize <br>
-	## => "Pippo"
+	> >> 'pippo'.capitalize <br>
+	> => "Pippo"
 * **Swapcase**, restituisce una stringa con i caratteri invertiti, minuscole al posto di maiuscole e viceversa;
-	## >> 'PiPpO'.swapcase <br>
-	## => "pIpPo" </li>
+	> >> 'PiPpO'.swapcase <br>
+	> => "pIpPo" </li>
 * **Chop**, elimina l’ultimo carattere della stringa; <br>
-	## >> 'pippo'.chop 
-	## => 'pipp'		
+	> >> 'pippo'.chop 
+	> => 'pipp'		
 * **Split(delimitatore)**, divide la stringa in sottostringhe in base al delimitatore passato come argomento;
 				>> 'ciao mondo'.split <br>
 				=> ["ciao", "mondo"] <br>
