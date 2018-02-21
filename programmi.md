@@ -1,4 +1,4 @@
-﻿#PROGRAMMI  <h1>           
+﻿# PROGRAMMI  <h1>           
         
 Questo programma serve per creare una tabella contenente le tabelline dei
 numeri da 1 a 10:      
@@ -23,7 +23,7 @@ numeri da 1 a 10:
 Nel programma seguente viene creata una calcolatrice che esegue le 4 operazioni 
 matematiche in base alla scelta dell’utente:      
        
-*programma che esegue le 4 operazioni*     
+*#programma che esegue le 4 operazioni*     
 	      
 		puts "Che operazione vuoi svolgere: "     
 		puts "1. Addizione"     
@@ -31,11 +31,11 @@ matematiche in base alla scelta dell’utente:
 		puts "3. Moltiplicazione"     
 		puts "4. Divisione"      
       
-*prelevo il numero inserito dall'utente*     
+*#prelevo il numero inserito dall'utente*     
 	     
 		num = gets.chomp.to_i       
         
-*eseguo il controllo*
+*#eseguo il controllo*
     	
 		while num < 1 || num > 4     
 			puts "il numero inserito non è corretto"     

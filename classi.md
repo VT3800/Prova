@@ -1,5 +1,5 @@
-﻿#CLASSI <h1>   
-         
+﻿# CLASSI      
+     
 Una classe è una raccolta di metodi, il cui nome, per convenzione inizia 
 con una lettera maiuscola. Per inizializzare una classe è necessario 
 scrivere “CLASS” e per terminarla si scrive “END”.  Quando si vuole 

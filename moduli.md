@@ -1,4 +1,4 @@
-﻿#MODULI <h1>            
+﻿# MODULI <h1>            
         
 I moduli, in Ruby, sono simili alle classi, ma a differenza di quest’ultime,
 non possono avere istanze, non hanno sottoclassi e sono definiti da 

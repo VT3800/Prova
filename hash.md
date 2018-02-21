@@ -13,35 +13,35 @@ Nel primo caso viene creato un nuovo dizionario vuoto, mentre nel secondo viene 
       
 Qui è stato creato un hash vuoto.   
               
-	\>> cibo = {}          
+	>> cibo = {}          
 	=> {}              
 		
 Gli hash di seguito indicati contengono  un insieme di key(chiave) => value(valore). Al loro interno le chiavi sono rappresentate dalle pietanze mentre i valori dall’indice di gradimento.      
          	
-	\>> cibo [" Carciofi "] = : non_buono     
+	>> cibo [" Carciofi "] = : non_buono     
 	=> : non_buono      
-	\>> cibo [" Salsiccia "] = : molto_buono     
+	>> cibo [" Salsiccia "] = : molto_buono     
 	=> : molto_buono       
-	\>> cibo [" Pajata "] = : non_so     
+	>> cibo [" Pajata "] = : non_so     
 	=> : non_so      
-	\>> cibo [" Mozzarella "] = : buono      
+	>> cibo [" Mozzarella "] = : buono      
 	=> : buono     
-	\>> cibo [" Aragosta "] = : ottimo     
+	>> cibo [" Aragosta "] = : ottimo     
 	=> : ottimo    
         
 Come indicato nel caso sottostante, se richiamato, il dizionario cibo mostra a video il suo contenuto.        			
          
-	\>> cibo     
+	>> cibo     
 	=> {" Carciofi " => : non_buono, " Salsiccia " => : molto_buono ... }     
         
 Di seguito viene creato un hash per memorizzare l’indice di gradimento e successivamente viene riempito con le recensioni.    
         
-	\>> recensioni = Hash.new(0)     
+	>> recensioni = Hash.new(0)     
 	=> {}     
-	\>> food.values.each {|voto| recensioni [voto]+= 1}      
+	>> food.values.each {|voto| recensioni [voto]+= 1}      
          
 Una volta richiamato, mostra a video i risultati        			
        
-	\>> recensioni      
+	>> recensioni      
 	=> {: non_buono => 2, : molto_buono => 4, : non_so => 1,...}      		
 	

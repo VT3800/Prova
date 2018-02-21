@@ -8,9 +8,9 @@ stampa  tutto il contenuto del file come se venisse aperto con
 l’editor (ovviamente il file che viene visualizzato sul terminale 
 è di sola lettura).        
        
-	\>> rb = File.open("es1.rb").readlines       
+	>> rb = File.open("es1.rb").readlines       
 	=> (testo completo del programma che è stato richiamato				
-	\>> puts rb     				
+	>> puts rb     				
 	class Persona      
 		def inizialize       
 			puts "Ciao !"        
@@ -35,19 +35,19 @@ specificare se il file possa essere di sola lettura, scrittura
 o entrambi. In seguito viene generato un ciclo che legge il file
 una riga per volta e la inserisce in un array. Una volta finita
 l’operazione è obbligatorio chiudere il file.      
-       
-	\>> f = File.new("es1.rb", "r")     
+		   
+	>> f = File.new("es1.rb", "r")     
 	=> \# File:es1.rb    
-	\>> testo = [ ]     
+	>> testo = [ ]     
 	=> [ ]    
-	\>> while (riga = f.gets)     
-	\>> testo << riga     
-	\>> end    
+	>> while (riga = f.gets)     
+	>> testo << riga     
+	>> end    
 	=> nil    
-	\>> f.clone    
+	>> f.clone    
 	=> nil     
-	\>> num_righe = testo.length    
+	>> num_righe = testo.length    
 	=> 17     
-	\>> 0.upto num_righe - 1 do |n|    
-	\?> puts "#"{n}- #{testo[n]}     
-	\>> end    
+	>> 0.upto num_righe - 1 do |n|    
+	?> puts "#"{n}- #{testo[n]}     
+	>> end    
