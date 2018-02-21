@@ -36,10 +36,10 @@ due oggetti di tipo Persona (p1,p2) che richiameranno i due metodi.
 		end    
 	end     
 		
-*creiamo due oggetti della classe Persona*      
+*#creiamo due oggetti della classe Persona*      
 		p1= Persona.new    
 		p2= Persona.new     
       
-*richiamo il metodo creato dalla classe*      
+*#richiamo il metodo creato dalla classe*      
 		puts p1.inizialize    
 		puts p2.goodbye     

@@ -19,14 +19,17 @@ programma che permetta di richiamare il metodo e così da poterlo utilizzare.
 
 *Esempio:*    
           
-class Human    
-	attr_accessor :name, :age     
-*#metodo pubblico*       
-	def dimmi_di_te                  
-		puts "Ciao, sono #{@name} e ho #{@age} anni."    
-	end      
+	class Human    
+		attr_accessor :name, :age      
+      		
+*#metodo pubblico*     
+              
+		def dimmi_di_te                  
+			puts "Ciao, sono #{@name} e ho #{@age} anni."    
+		end      
      
-*#metodo pubblico che ci permette di richiamare il metodo privato*     
+*#metodo pubblico che ci permette di richiamare il metodo privato*      
+           
 		def confessa    
 			dimmi_un_segreto        
 		end          
@@ -35,16 +38,19 @@ class Human
 		def dimmi_un_segreto           
 			puts "Non sono umano, sono un robot"     
 		end      
-end    
+	end    
 
-*#creo un nuovo oggetto di tipo Human*    
+*#creo un nuovo oggetto di tipo Human*      
+        
 h = Human.new   
    
-*#diamo un valore ai parametri da passare alle funzioni*    
+*#diamo un valore ai parametri da passare alle funzioni*     
+           
 h.name = "Marvin"   
 h.age = 31   
    
-*#richiamo i due metodi*   
+*#richiamo i due metodi*      
+          
 h.dimmi_di_te   
 h.confessa   
 
