@@ -21,11 +21,11 @@ l’editor (ovviamente il file che viene visualizzato sul terminale
 		end         
 	end         
        
-	* creiamo due oggetti della classe Persona*      
+*creiamo due oggetti della classe Persona*      
     p1= Persona.new     
     p2= Persona.new      
      	
-	*richiamo il metodo creato dalla classe*
+*richiamo il metodo creato dalla classe*
 	puts p1.inizialize      
 	puts p2.goodbye      
         

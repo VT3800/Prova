@@ -1,4 +1,4 @@
-﻿#SOTTOCLASSI      
+﻿#SOTTOCLASSI <h1>          
       
 Per definire una sottoclasse in Ruby viene utilizzato il 
 simbolo "<”: es. Palindromo < String, in questo caso “Palindromo”
@@ -11,9 +11,8 @@ pubblici della superclasse (classe da cui eredita).
 			self == self.reverse     
 		end     
 	end      
-      
 	parola = Palindromo.new("Anna")      
-	puts parola.palindrome? *true/false*      
+	puts parola.palindrome?     
      
 In questo esempio viene creata la sottoclasse “Palindromo”, che ha 
 al suo interno il metodo che verifica se la parola inserita dall’utente

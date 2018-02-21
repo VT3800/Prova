@@ -1,16 +1,18 @@
 ﻿# DIZIONARI o HASH
 		
 Per creare un dizionario/hash si utilizzano le parentesi graffe ({ }). 
-Negli hash l’indice può essere di qualsiasi tipo, rispetto all’array, e può essere una stringa o un’ espressione regolare; per salvare un valore in un hash è necessario specificare sia l’indice, che il  valore associato ad esso.     
-	\>> nome = Hash.new(0)     
+Negli hash l’indice può essere di qualsiasi tipo, rispetto all’array, e può essere una stringa o un’ espressione regolare; per salvare un valore in un hash è necessario specificare sia l’indice, che il  valore associato ad esso.    
+        
+	>> nome = Hash.new(0)     
 	=> {}     
-	\>> 5.times{print 'ciao '}     
+	>> 5.times{print 'ciao '}     
 	ciao ciao ciao ciao ciao => 5     
         			
 Nel primo caso viene creato un nuovo dizionario vuoto, mentre nel secondo viene ripetuto il contenuto del dizionario per 5 volte, a seconda del numero indicato dall’utente.       
-*Esempio*:    
+*Esempio:*    
       
-Qui è stato creato un hash vuoto.          
+Qui è stato creato un hash vuoto.   
+              
 	\>> cibo = {}          
 	=> {}              
 		

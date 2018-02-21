@@ -1,7 +1,8 @@
 # RANGE <h1>    
 
 In Ruby esiste anche il comando per indicare un range di valori e questo viene identificato con due punti (..).      
-Qui di seguito si possono osservare alcuni esempi:           
+Qui di seguito si possono osservare alcuni esempi:       
+               
 \>> (1..5).each {|a| print "#{a}, "}        
 1,2,3,4,5, => 1..5       
 \>> ("bad".."bag").each {|a| print "#{a}, "}      
